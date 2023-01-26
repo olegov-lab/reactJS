@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TodoItems from "./TodoItems";
 
 class TodoList extends Component {
 
@@ -44,6 +45,7 @@ class TodoList extends Component {
                         <button type="submit" >OK</button>
                     </form>
                 </div>
+                <TodoItems entries={this.state.items} />
             </div>
         )
     }
