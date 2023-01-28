@@ -1,0 +1,20 @@
+#roundButton {
+    background-color: rgb(141, 141, 34);
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid #0065A6;
+}
+
+#roundButton:hover {
+    background-color: rgb(141, 141, 34);
+    cursor: pointer;
+    border-color: blueviolet;
+    transform: scale(1.2);
+}
+
+#roundButton:active {
+    background-color: rgb(109, 210, 205);
+    border-color: rgb(175, 217, 70);
+}
